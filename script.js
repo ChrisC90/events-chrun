@@ -10,3 +10,9 @@ function addItem() {
         document.getElementById('newItem').value = '';
     }
 }
+
+function handleKeyPress(event) {
+    if (event.key === 'Enter') {
+        addItem();
+    }
+}
